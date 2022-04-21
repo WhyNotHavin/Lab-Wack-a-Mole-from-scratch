@@ -1,0 +1,114 @@
+.score {
+  z-index: 2;
+}
+
+.score-container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+
+}
+/*
+h1 {
+  position: absolute;
+  top: 4rem;
+  z-index: 2;
+  left: 820px;
+}
+*/
+.header{
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+}
+.title {
+
+  z-index: 2;
+}
+
+.background{
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+#score-text {
+  font-size: 6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: yellow;
+  text-shadow: 0 0 10px blue;
+}
+.hidden {
+  opacity: 0;
+}
+
+#diglet-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 2;
+}
+.diglet {
+  padding: 5rem 5rem 5rem 5rem;
+  z-index: 2;
+}
+
+
+
+/*
+.diglet1{
+  position: absolute;
+  z-index: 1;
+  top: 26rem;
+  right: 4rem;
+}
+.diglet2{
+  position: absolute;
+  z-index: 1;
+  top: 26rem;
+  right: 28rem;
+}
+.diglet3{
+  position: absolute;
+  z-index: 1;
+  top: 26rem;
+  right: 52rem;
+}
+.diglet4{
+  position: absolute;
+  z-index: 1;
+  top: 26rem;
+  right: 76rem;
+}
+.diglet5{
+  position: absolute;
+  z-index: 1;
+  top: 26rem;
+  right: 100rem;
+}
+.diglet6{
+  position: absolute;
+  z-index: 1;
+  top: 46rem;
+  right: 18rem;
+}
+.diglet7{
+  position: absolute;
+  z-index: 1;
+  top: 46rem;
+  right: 42rem;
+}
+.diglet8{
+  position: absolute;
+  z-index: 1;
+  top: 46rem;
+  right: 66rem;
+}
+.diglet9{
+  position: absolute;
+  z-index: 1;
+  top: 46rem;
+  right: 90rem;
+}
+*/
